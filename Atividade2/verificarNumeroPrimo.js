@@ -4,11 +4,11 @@ function verificarNumeroPrimo(n){
     }
     for (i = 2; i <= Math.sqrt(n); i++) {
         if (n % i == 0) {
+          
             return false;
         }
     }
-    return true;
-    
+    return true; 
 }
 console.log(verificarNumeroPrimo(0));        
 console.log(verificarNumeroPrimo(1));        
