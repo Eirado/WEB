@@ -16,9 +16,8 @@ function transporMatriz(A){
         matrizTranspostaString += '\n';
     }
     console.log(matrizTranspostaString);
-
 }
 
 module.exports = {
     transporMatriz
-}
+};
