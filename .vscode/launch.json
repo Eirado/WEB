@@ -12,6 +12,17 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/exemplo/helloWorld.js"
+        },
+        {
+            "name": "Docker Node.js Launch",
+            "type": "docker",
+            "request": "launch",
+            "preLaunchTask": "docker-run: debug",
+            "platform": "node",
+            "node": {
+                "package": "${workspaceFolder}/atividade4/package.json",
+                "localRoot": "${workspaceFolder}/atividade4"
+            }
         }
     ]
 }

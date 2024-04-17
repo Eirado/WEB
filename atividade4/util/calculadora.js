@@ -1,9 +1,4 @@
-/**
- * Soma dois números inteiros
- * @param  {Number} a
- * @param  {Number} b
- * @return {Number}   a soma entre a e b
- */
+
 function somar(a, b) {
     return Number(a) + Number(b);
 }
